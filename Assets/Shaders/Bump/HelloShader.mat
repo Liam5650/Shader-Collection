@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Emissive
-  m_Shader: {fileID: 4800000, guid: b4afe01466c15334cad04ddd12cbc802, type: 3}
+  m_Name: HelloShader
+  m_Shader: {fileID: 4800000, guid: 06f7dbf0e9fb66248ac8889af48f89c0, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -56,14 +56,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _myEmis:
-        m_Texture: {fileID: 2800000, guid: 23e83b14da24d884e9257b4975d60d4a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _myTex:
-        m_Texture: {fileID: 2800000, guid: 8ea110040d23e2149a6c894f7984faf5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    - _myBump:
+        m_Texture: {fileID: 2800000, guid: 98fa0aa4079d97246abd192fb0084b7d, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0.97, y: 0}
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
@@ -75,6 +71,7 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
+    - _MySliderValue: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
@@ -82,8 +79,11 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _myRange: 3
+    - _mySlider: 5
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.091, g: 0, b: 0.68275833, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _myColour: {r: 0.6698113, g: 0.62408626, b: 0.45917878, a: 1}
+    - _myEmission: {r: 0.2924528, g: 0.11219886, b: 0.11219886, a: 1}
   m_BuildTextureStacks: []
